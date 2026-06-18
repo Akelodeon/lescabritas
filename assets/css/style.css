@@ -1,1 +1,25 @@
 body { font-family: Arial, sans-serif; }
+.host{
+display:flex;
+align-items:center;
+gap:60px;
+max-width:1200px;
+margin:auto;
+}
+
+.host img{
+width:320px;
+min-width:320px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.host-text{
+flex:1;
+}
+
+.host-text h3{
+margin-top:0;
+color:#40543d;
+font-size:2rem;
+}
