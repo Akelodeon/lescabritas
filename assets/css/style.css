@@ -47,3 +47,23 @@ margin-top:0;
 color:#40543d;
 font-size:2rem;
 }
+@media(max-width:768px){
+
+.host{
+display:block;
+text-align:center;
+}
+
+.host img{
+width:220px;
+max-width:90%;
+margin:0 auto 30px auto;
+display:block;
+}
+
+.host-text{
+width:100%;
+max-width:100%;
+}
+
+}
