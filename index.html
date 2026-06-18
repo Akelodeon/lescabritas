@@ -15,9 +15,37 @@ h1{font-size:4rem;margin:0}
 section{padding:70px 8%;max-width:1400px;margin:auto}
 h2{text-align:center;color:#40543d;font-size:2.2rem}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.gallery img,.visit img{width:100%;border-radius:12px}
+.gallery img{
+width:100%;
+height:280px;
+object-fit:cover;
+border-radius:15px;
+}
+
+.visit img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:15px;
+}
 .card{background:white;padding:25px;border-radius:16px;box-shadow:0 8px 25px rgba(0,0,0,0.08);}
-.host{display:flex;gap:40px;align-items:center;flex-wrap:wrap}
+.host{
+display:flex;
+gap:60px;
+align-items:center;
+max-width:1200px;
+margin:auto;
+}
+
+.host-text{
+flex:1;
+}
+
+.host img{
+width:320px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
 .host img{width:320px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,0.15);}
 footer{background:#233018;color:#fff;padding:50px;text-align:center}
 .small{font-size:.9rem;opacity:.8}
