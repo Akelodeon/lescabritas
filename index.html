@@ -99,6 +99,77 @@ width:100%;
 }
 
 }
+#calendar-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.month{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.month h3{
+text-align:center;
+color:#40543d;
+margin-top:0;
+}
+
+.days{
+display:grid;
+grid-template-columns:repeat(7,1fr);
+gap:4px;
+}
+
+.day{
+padding:8px;
+text-align:center;
+border-radius:6px;
+font-size:0.9rem;
+}
+
+.available{
+background:#b8d8b8;
+}
+
+.booked{
+background:#d9534f;
+color:white;
+}
+
+.past{
+background:#dddddd;
+color:#777;
+}
+
+.legend{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-bottom:20px;
+}
+
+.legend span{
+display:flex;
+align-items:center;
+gap:8px;
+}
+
+.green,.red,.grey{
+width:18px;
+height:18px;
+display:inline-block;
+border-radius:4px;
+}
+
+.green{background:#b8d8b8;}
+.red{background:#d9534f;}
+.grey{background:#dddddd;}
 </style>
 </head>
 <body>
@@ -278,6 +349,24 @@ Depuis Les Cabritas, découvrez les plus beaux sites naturels et touristiques de
 <p>Les Cabritas ont été pensées pour les voyageurs à la recherche de calme, de confort et d'authenticité. Les fêtes, anniversaires et événements ne sont pas autorisés. Le respect du voisinage est une condition essentielle du séjour. Les animaux ne sont pas admis. Toute réservation implique l'acceptation du règlement intérieur.</p>
 </section>
 
+<section id="calendrier">
+
+<h2>Disponibilités</h2>
+
+<p style="text-align:center;max-width:900px;margin:0 auto 30px;">
+Consultez nos disponibilités. Pour toute réservation ou demande d'information,
+contactez-nous directement par téléphone ou par email.
+</p>
+
+<div class="legend">
+<span><span class="green"></span> Disponible</span>
+<span><span class="red"></span> Réservé</span>
+<span><span class="grey"></span> Passé</span>
+</div>
+
+<div id="calendar-container"></div>
+
+</section>
 <section>
 
 <h2>Votre hôte</h2>
@@ -341,6 +430,114 @@ Je reste disponible avant votre arrivée et pendant toute la durée de votre sé
      alt="Gîte Les Cabritas Ardèche"
      style="width:100%;display:block;">
 </section>
+<script>
 
+const reservations = [
+
+{
+start:"2026-07-13",
+end:"2026-07-15"
+},
+
+{
+start:"2026-08-21",
+end:"2026-08-28"
+}
+
+];
+
+function isReserved(date){
+
+for(const r of reservations){
+
+let start = new Date(r.start);
+let end = new Date(r.end);
+
+if(date >= start && date <= end){
+return true;
+}
+
+}
+
+return false;
+
+}
+
+const container =
+document.getElementById("calendar-container");
+
+const today = new Date();
+
+const months = [
+"Janvier","Février","Mars","Avril","Mai","Juin",
+"Juillet","Août","Septembre","Octobre","Novembre","Décembre"
+];
+
+for(let m=0;m<12;m++){
+
+let current =
+new Date(today.getFullYear(),today.getMonth()+m,1);
+
+let monthDiv =
+document.createElement("div");
+
+monthDiv.className="month";
+
+monthDiv.innerHTML=
+`<h3>${months[current.getMonth()]} ${current.getFullYear()}</h3>`;
+
+let daysDiv =
+document.createElement("div");
+
+daysDiv.className="days";
+
+let lastDay =
+new Date(
+current.getFullYear(),
+current.getMonth()+1,
+0
+).getDate();
+
+for(let d=1; d<=lastDay; d++){
+
+let dayDate =
+new Date(
+current.getFullYear(),
+current.getMonth(),
+d
+);
+
+let day =
+document.createElement("div");
+
+day.className="day";
+
+if(dayDate < new Date(
+today.getFullYear(),
+today.getMonth(),
+today.getDate()
+)){
+day.classList.add("past");
+}
+else if(isReserved(dayDate)){
+day.classList.add("booked");
+}
+else{
+day.classList.add("available");
+}
+
+day.innerText=d;
+
+daysDiv.appendChild(day);
+
+}
+
+monthDiv.appendChild(daysDiv);
+
+container.appendChild(monthDiv);
+
+}
+
+</script>
 </body>
 </html>
