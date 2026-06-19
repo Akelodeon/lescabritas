@@ -500,7 +500,11 @@ return false;
 const container =
 document.getElementById("calendar-container");
 
-const today = new Date();
+const today = new Date(
+new Date().toLocaleString("en-US", {
+timeZone: "Europe/Paris"
+})
+);
 
 const months = [
 "Janvier","Février","Mars","Avril","Mai","Juin",
