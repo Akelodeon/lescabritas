@@ -125,6 +125,16 @@ grid-template-columns:repeat(7,1fr);
 gap:4px;
 }
 
+.weekday{
+font-weight:bold;
+text-align:center;
+color:#40543d;
+padding:6px 0;
+}
+
+.empty{
+visibility:hidden;
+}
 .day{
 padding:8px;
 text-align:center;
@@ -516,12 +526,57 @@ document.createElement("div");
 
 daysDiv.className="days";
 
+const weekdays = ["Lu","Ma","Me","Je","Ve","Sa","Di"];
+
+weekdays.forEach(day => {
+  let header =
+  document.createElement("div");
+
+  header.className = "weekday";
+  header.innerText = day;
+
+  daysDiv.appendChild(header);
+});
+
 let lastDay =
 new Date(
 current.getFullYear(),
 current.getMonth()+1,
 0
 ).getDate();
+
+let firstDay =
+new Date(
+current.getFullYear(),
+current.getMonth(),
+1
+).getDay();
+
+/*
+JavaScript :
+0 = dimanche
+1 = lundi
+...
+6 = samedi
+
+On transforme pour avoir :
+lundi = 0
+samedi = 5
+dimanche = 6
+*/
+
+firstDay = (firstDay + 6) % 7;
+
+for(let i=0; i<firstDay; i++){
+
+let empty =
+document.createElement("div");
+
+empty.className="empty";
+
+daysDiv.appendChild(empty);
+
+}
 
 for(let d=1; d<=lastDay; d++){
 
