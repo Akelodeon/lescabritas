@@ -465,11 +465,6 @@ end:"2026-08-14"
 },
 
 {
-start:"2026-08-08",
-end:"2026-08-14"
-},
-
-{
 start:"2026-08-15",
 end:"2026-08-28"
 }
@@ -480,8 +475,8 @@ function isReserved(date){
 
 for(const r of reservations){
 
-let start = new Date(r.start);
-let end = new Date(r.end);
+let start = new Date(r.start + "T12:00:00");
+let end = new Date(r.end + "T12:00:00");
 
 if(date >= start && date <= end){
 return true;
@@ -534,7 +529,10 @@ let dayDate =
 new Date(
 current.getFullYear(),
 current.getMonth(),
-d
+d,
+12,
+0,
+0
 );
 
 let day =
