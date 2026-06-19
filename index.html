@@ -567,10 +567,23 @@ const months = [
 "Juillet","Août","Septembre","Octobre","Novembre","Décembre"
 ];
 
-for(let m=0;m<12;m++){
+let currentOffset = 0;
+
+function renderCalendar(){
+
+container.innerHTML="";
+
+let monthsToShow =
+window.innerWidth <= 768 ? 1 : 2;
+
+for(let m=0;m<monthsToShow;m++){
 
 let current =
-new Date(today.getFullYear(),today.getMonth()+m,1);
+new Date(
+today.getFullYear(),
+today.getMonth()+currentOffset+m,
+1
+);
 
 let monthDiv =
 document.createElement("div");
@@ -588,13 +601,15 @@ daysDiv.className="days";
 const weekdays = ["Lu","Ma","Me","Je","Ve","Sa","Di"];
 
 weekdays.forEach(day => {
-  let header =
-  document.createElement("div");
 
-  header.className = "weekday";
-  header.innerText = day;
+let header =
+document.createElement("div");
 
-  daysDiv.appendChild(header);
+header.className = "weekday";
+header.innerText = day;
+
+daysDiv.appendChild(header);
+
 });
 
 let lastDay =
@@ -611,22 +626,9 @@ current.getMonth(),
 1
 ).getDay();
 
-/*
-JavaScript :
-0 = dimanche
-1 = lundi
-...
-6 = samedi
-
-On transforme pour avoir :
-lundi = 0
-samedi = 5
-dimanche = 6
-*/
-
 firstDay = (firstDay + 6) % 7;
 
-for(let i=0; i<firstDay; i++){
+for(let i=0;i<firstDay;i++){
 
 let empty =
 document.createElement("div");
@@ -637,7 +639,7 @@ daysDiv.appendChild(empty);
 
 }
 
-for(let d=1; d<=lastDay; d++){
+for(let d=1;d<=lastDay;d++){
 
 let dayDate =
 new Date(
@@ -679,6 +681,44 @@ monthDiv.appendChild(daysDiv);
 container.appendChild(monthDiv);
 
 }
+
+document.getElementById("calendar-title").innerText =
+window.innerWidth <= 768
+? months[new Date(today.getFullYear(),today.getMonth()+currentOffset).getMonth()]
++ " "
++ new Date(today.getFullYear(),today.getMonth()+currentOffset).getFullYear()
+: "Navigation des disponibilités";
+
+}
+
+renderCalendar();
+
+document.getElementById("nextMonth")
+.addEventListener("click",()=>{
+
+currentOffset++;
+
+renderCalendar();
+
+});
+
+document.getElementById("prevMonth")
+.addEventListener("click",()=>{
+
+if(currentOffset>0){
+
+currentOffset--;
+
+renderCalendar();
+
+}
+
+});
+
+window.addEventListener(
+"resize",
+renderCalendar
+);
 
 </script>
 </body>
