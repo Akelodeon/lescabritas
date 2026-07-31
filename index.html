@@ -62,6 +62,7 @@ display:block;
 .visit-card h3{
 margin:15px 20px 10px;
 color:#40543d;
+text-align:center;
 }
 
 .visit-card p{
@@ -74,6 +75,7 @@ object-fit:cover;
 border-radius:15px;
 }
 .card{background:white;padding:25px;border-radius:16px;box-shadow:0 8px 25px rgba(0,0,0,0.08);}
+.card h3{text-align:center;}
 .host{
 display:flex;
 gap:40px;
@@ -242,6 +244,70 @@ grid-template-columns:1fr;
 
 }
 
+.lightbox-overlay{
+display:none;
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.9);
+z-index:1000;
+align-items:center;
+justify-content:center;
+}
+
+.lightbox-overlay.active{
+display:flex;
+}
+
+.lightbox-overlay img{
+max-width:90vw;
+max-height:85vh;
+border-radius:10px;
+box-shadow:0 10px 40px rgba(0,0,0,.5);
+}
+
+.lightbox-close{
+position:absolute;
+top:20px;
+right:30px;
+color:#fff;
+font-size:2.5rem;
+cursor:pointer;
+line-height:1;
+background:none;
+border:none;
+}
+
+.lightbox-nav{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+background:rgba(255,255,255,.15);
+color:#fff;
+border:none;
+font-size:1.8rem;
+padding:12px 18px;
+cursor:pointer;
+border-radius:8px;
+}
+
+.lightbox-prev{left:20px;}
+.lightbox-next{right:20px;}
+
+.lightbox-counter{
+position:absolute;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+color:#fff;
+font-size:.9rem;
+opacity:.8;
+}
+
+@media(max-width:768px){
+.lightbox-nav{font-size:1.4rem;padding:8px 12px;}
+.lightbox-close{font-size:2rem;top:12px;right:16px;}
+}
+
 </style>
 
 </head>
@@ -374,8 +440,25 @@ Linge de lit 100 % coton, serviettes de bain et kit d'accueil fournis.
 <img src="flaviac-vue-falaises.jpg"
      alt="Vue sur les falaises depuis Les Cabritas en Ardèche">
 
+<img src="flaviac-jardin-vue-piscine.jpg"
+     alt="Vue en hauteur du jardin, de la piscine et des falaises depuis Les Cabritas">
+
+<img src="flaviac-maison-piscine-angle2.jpg"
+     alt="Façade de la villa Les Cabritas avec sa piscine privée">
+
+<img src="flaviac-pergola-piscine.jpg"
+     alt="Terrasse couverte donnant sur la piscine et les falaises">
+
 </div>
 </section>
+
+<div class="lightbox-overlay" id="lightbox">
+<button class="lightbox-close" id="lightboxClose" aria-label="Fermer">&times;</button>
+<button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Photo précédente">&#10094;</button>
+<img id="lightboxImg" src="" alt="">
+<button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Photo suivante">&#10095;</button>
+<div class="lightbox-counter" id="lightboxCounter"></div>
+</div>
 
 <section class="visit">
 
@@ -387,53 +470,53 @@ Depuis Les Cabritas, découvrez les plus beaux sites naturels et touristiques de
 
 <div class="grid">
 
-<div class="visit-card">
+<a class="visit-card" href="pont-arc.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="Pont_Arc.jpeg" alt="Pont d'Arc">
 <h3>Pont d'Arc</h3>
 <p>L'arche naturelle emblématique des Gorges de l'Ardèche.</p>
-</div>
+</a>
 
-<div class="visit-card">
+<a class="visit-card" href="grotte-chauvet.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="grotte-chauvet2.jpg" alt="Grotte Chauvet 2">
 <h3>Grotte Chauvet 2</h3>
 <p>Une immersion fascinante dans l'art préhistorique classé à l'UNESCO.</p>
-</div>
+</a>
 
-<div class="visit-card">
+<a class="visit-card" href="balazuc.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="balazuc.jpeg" alt="Balazuc">
 <h3>Balazuc</h3>
 <p>Un des plus beaux villages de France, perché au-dessus de la rivière.</p>
-</div>
+</a>
 
-<div class="visit-card">
+<a class="visit-card" href="dolce-via.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="dolcevia.jpeg" alt="Dolce Via">
 <h3>Dolce Via</h3>
 <p>Une voie verte exceptionnelle pour les balades à vélo ou à pied.</p>
-</div>
+</a>
 
-<div class="visit-card">
+<a class="visit-card" href="vals-les-bains.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="vals.jpeg" alt="Vals-les-Bains">
 <h3>Vals-les-Bains</h3>
 <p>Ville thermale réputée pour ses sources et son marché.</p>
-</div>
+</a>
 
-<div class="visit-card">
+<a class="visit-card" href="gerbier-de-jonc.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="Gerbier.peg.png" alt="Mont Gerbier de Jonc">
 <h3>Mont Gerbier de Jonc</h3>
 <p>Le célèbre volcan d'où prend sa source la Loire.</p>
-</div>
+</a>
 
-<div class="visit-card">
+<a class="visit-card" href="vallee-drome.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="La-Drome.jpeg" alt="Vallée de la Drôme">
 <h3>Vallée de la Drôme</h3>
 <p>Des paysages magnifiques et des eaux turquoise à découvrir.</p>
-</div>
+</a>
 
-<div class="visit-card">
+<a class="visit-card" href="train-ardeche.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="train-ardeche.jpg" alt="Train de l'Ardèche">
 <h3>Train de l'Ardèche</h3>
 <p>Une balade authentique à bord d'un train à vapeur historique.</p>
-</div>
+</a>
 
 </div>
 </section>
@@ -807,6 +890,62 @@ window.addEventListener(
 "resize",
 renderCalendar
 );
+
+const galleryImgs = Array.from(document.querySelectorAll(".gallery img"));
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightboxImg");
+const lightboxCounter = document.getElementById("lightboxCounter");
+let lightboxIndex = 0;
+
+function updateLightbox(){
+const img = galleryImgs[lightboxIndex];
+lightboxImg.src = img.src;
+lightboxImg.alt = img.alt;
+lightboxCounter.innerText = (lightboxIndex + 1) + " / " + galleryImgs.length;
+}
+
+function openLightbox(index){
+lightboxIndex = index;
+updateLightbox();
+lightbox.classList.add("active");
+document.body.style.overflow = "hidden";
+}
+
+function closeLightbox(){
+lightbox.classList.remove("active");
+document.body.style.overflow = "";
+}
+
+function showPrevPhoto(){
+lightboxIndex = (lightboxIndex - 1 + galleryImgs.length) % galleryImgs.length;
+updateLightbox();
+}
+
+function showNextPhoto(){
+lightboxIndex = (lightboxIndex + 1) % galleryImgs.length;
+updateLightbox();
+}
+
+galleryImgs.forEach((img, index) => {
+img.addEventListener("click", () => openLightbox(index));
+});
+
+document.getElementById("lightboxClose").addEventListener("click", closeLightbox);
+document.getElementById("lightboxPrev").addEventListener("click", showPrevPhoto);
+document.getElementById("lightboxNext").addEventListener("click", showNextPhoto);
+
+lightbox.addEventListener("click", (e) => {
+if(e.target === lightbox){
+closeLightbox();
+}
+});
+
+document.addEventListener("keydown", (e) => {
+if(!lightbox.classList.contains("active")) return;
+if(e.key === "Escape") closeLightbox();
+if(e.key === "ArrowLeft") showPrevPhoto();
+if(e.key === "ArrowRight") showNextPhoto();
+});
 
 </script>
 </body>
