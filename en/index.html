@@ -150,14 +150,15 @@ width:100%;
 }
 
 .gallery{
-display:grid;
-grid-template-columns:repeat(3,1fr);
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
 gap:6px;
 }
 
 .gallery img{
-flex:none;
-width:100%;
+flex:0 0 calc((100% - 12px)/3);
+width:calc((100% - 12px)/3);
 height:auto;
 aspect-ratio:1/1;
 border-radius:8px;
