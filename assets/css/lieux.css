@@ -24,3 +24,7 @@ footer a{color:#fff;}
 .small{font-size:.85rem;opacity:.8;}
 img.lieu-img{width:100%;border-radius:15px;margin:20px 0;box-shadow:0 8px 25px rgba(0,0,0,.08);display:block;}
 @media(max-width:768px){h1{font-size:1.9rem;}.lieu-hero{height:40vh;}main{padding:40px 6% 10px;}}
+.lang-switch{position:fixed;top:15px;right:15px;z-index:500;display:flex;gap:8px;background:rgba(255,255,255,.9);padding:6px 10px;border-radius:20px;box-shadow:0 4px 15px rgba(0,0,0,.15);}
+.lang-switch a{font-size:1.3rem;text-decoration:none;line-height:1;opacity:.45;filter:grayscale(70%);transition:0.2s;}
+.lang-switch a.active{opacity:1;filter:none;}
+.lang-switch a:hover{opacity:1;}
