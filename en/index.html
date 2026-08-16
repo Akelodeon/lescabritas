@@ -76,6 +76,26 @@ text-align:center;
 
 .visit-card p{
 margin:0 20px 20px;
+text-align:center;
+}
+.visit-grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+.visit-grid .visit-card{
+flex:0 0 calc((100% - 60px)/4);
+}
+@media(max-width:900px){
+.visit-grid .visit-card{
+flex:0 0 calc((100% - 20px)/2);
+}
+}
+@media(max-width:600px){
+.visit-grid .visit-card{
+flex:0 0 100%;
+}
 }
 .visit img{
 width:100%;
@@ -615,10 +635,10 @@ Two comfortable bedrooms:
 <h2>Discover Ardèche</h2>
 
 <p style="text-align:center;max-width:900px;margin:0 auto 40px;">
-From Les Cabritas, discover the most beautiful natural and tourist sites of Ardèche and Drôme.
+From Les Cabritas, discover the most beautiful natural and tourist sites of Ardèche.
 </p>
 
-<div class="grid">
+<div class="grid visit-grid">
 
 <a class="visit-card" href="pont-arc.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="../images/ardeche/Pont_Arc.jpeg" alt="Pont d'Arc">
@@ -656,16 +676,125 @@ From Les Cabritas, discover the most beautiful natural and tourist sites of Ard�
 <p>The famous volcano where the source of the Loire river rises.</p>
 </a>
 
+<a class="visit-card" href="train-ardeche.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/ardeche/train-ardeche.jpg" alt="Ardèche steam train">
+<h3>Ardèche Steam Train</h3>
+<p>An authentic ride aboard a historic steam train.</p>
+</a>
+
+<a class="visit-card" href="ruoms-labeaume.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/ardeche/ruoms-labeaume.jpg" alt="Ruoms and Labeaume">
+<h3>Ruoms and Labeaume</h3>
+<p>Two villages of southern Ardèche, with ramparts and hanging gardens.</p>
+</a>
+
+<a class="visit-card" href="chateau-de-crussol.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/ardeche/chateau-de-crussol.jpg" alt="Château de Crussol">
+<h3>Château de Crussol</h3>
+<p>A medieval fortress perched above the Rhône valley.</p>
+</a>
+
+<a class="visit-card" href="fort-mahon-jaubernie.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/ardeche/fort-mahon-jaubernie.jpg" alt="Fort Mahon and the Jaubernie caves">
+<h3>Fort Mahon and the Jaubernie</h3>
+<p>A hike through the hamlets of Flaviac, starting right from the cottage.</p>
+</a>
+
+<a class="visit-card" href="privas.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/ardeche/privas.jpg" alt="Privas">
+<h3>Privas</h3>
+<p>The county town of Ardèche and its candied chestnut capital, 10 minutes away.</p>
+</a>
+
+<a class="visit-card" href="rochemaure-saint-vincent-de-barres.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/ardeche/rochemaure-saint-vincent-de-barres.jpg" alt="Rochemaure and Saint-Vincent-de-Barrès">
+<h3>Rochemaure</h3>
+<p>Medieval village and spectacular Himalayan footbridge over the Rhône.</p>
+</a>
+
+<a class="visit-card" href="aven-orgnac.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/ardeche/aven-orgnac.jpg" alt="Aven d'Orgnac">
+<h3>Aven d'Orgnac</h3>
+<p>A spectacular cave listed as a Grand Site de France.</p>
+</a>
+
+<a class="visit-card" href="chassezac.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/ardeche/chassezac.jpg" alt="Gorges du Chassezac">
+<h3>The Chassezac</h3>
+<p>A wild canyon, famous for canoeing amid unspoiled nature.</p>
+</a>
+
+</div>
+</section>
+
+<section class="visit">
+
+<h2>You can also discover the Drôme</h2>
+
+<p style="text-align:center;max-width:900px;margin:0 auto 40px;">
+From Les Cabritas, the Drôme isn't far. You can discover perched villages, Provençal markets and wide open natural spaces.
+</p>
+
+<div class="grid visit-grid">
+
 <a class="visit-card" href="vallee-drome.html" style="text-decoration:none;color:inherit;display:block;">
 <img src="../images/drome/La-Drome.jpeg" alt="Drôme Valley">
 <h3>Drôme Valley</h3>
 <p>Magnificent landscapes and turquoise waters to discover.</p>
 </a>
 
-<a class="visit-card" href="train-ardeche.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/train-ardeche.jpg" alt="Ardèche steam train">
-<h3>Ardèche Steam Train</h3>
-<p>An authentic ride aboard a historic steam train.</p>
+<a class="visit-card" href="valence.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/drome/valence.jpg" alt="Valence">
+<h3>Valence</h3>
+<p>The county town of the Drôme, its Kiosque Peynet and historic centre.</p>
+</a>
+
+<a class="visit-card" href="tour-de-crest.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/drome/tour-de-crest.jpg" alt="Tour de Crest">
+<h3>Tour de Crest</h3>
+<p>The tallest keep in France and 900 years of history.</p>
+</a>
+
+<a class="visit-card" href="vercors-grands-goulets.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/drome/vercors-grands-goulets.jpg" alt="Vercors and Gorges des Grands Goulets">
+<h3>The Vercors drômois</h3>
+<p>Sheer cliffs and Resistance history at Vassieux.</p>
+</a>
+
+<a class="visit-card" href="drome-provencale.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/drome/drome-provencale.jpg" alt="Drôme provençale, Nyons and Buis-les-Baronnies">
+<h3>The Drôme provençale</h3>
+<p>Nyons, Buis-les-Baronnies: olive groves and markets with a scent of Provence.</p>
+</a>
+
+<a class="visit-card" href="montelimar.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/drome/montelimar.jpg" alt="Montélimar">
+<h3>Montélimar</h3>
+<p>The nougat capital and its Château des Adhémar.</p>
+</a>
+
+<a class="visit-card" href="mirmande.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/drome/mirmande.jpg" alt="Mirmande">
+<h3>Mirmande</h3>
+<p>One of the Most Beautiful Villages of France, perched above the Rhône.</p>
+</a>
+
+<a class="visit-card" href="palais-ideal-facteur-cheval.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/drome/palais-ideal-facteur-cheval.jpg" alt="Le Palais Idéal du Facteur Cheval">
+<h3>Le Palais Idéal du Facteur Cheval</h3>
+<p>The unique work of a self-taught postman, 33 years of building in Hauterives.</p>
+</a>
+
+<a class="visit-card" href="trois-becs.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/drome/trois-becs.jpg" alt="Les Trois Becs">
+<h3>Les Trois Becs</h3>
+<p>A demanding hike with an exceptional view over the Vercors.</p>
+</a>
+
+<a class="visit-card" href="pierrelatte-ferme-crocodiles.html" style="text-decoration:none;color:inherit;display:block;">
+<img src="../images/drome/pierrelatte-ferme-crocodiles.jpg" alt="Ferme aux Crocodiles de Pierrelatte">
+<h3>Crocodile Farm</h3>
+<p>Europe's largest animal park dedicated to reptiles.</p>
 </a>
 
 </div>
