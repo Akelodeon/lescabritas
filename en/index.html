@@ -258,11 +258,18 @@ color:white;
 }
 
 .turnover{
-background:linear-gradient(135deg,#b8d8b8 0%,#b8d8b8 49%,#d9534f 51%,#d9534f 100%);
 display:flex;
 align-items:center;
 justify-content:center;
 cursor:help;
+}
+
+.turnover.arrival{
+background:linear-gradient(180deg,#b8d8b8 0%,#b8d8b8 50%,#d9534f 50%,#d9534f 100%);
+}
+
+.turnover.departure{
+background:linear-gradient(180deg,#d9534f 0%,#d9534f 50%,#b8d8b8 50%,#b8d8b8 100%);
 }
 
 .turnover .day-num{
@@ -308,7 +315,7 @@ border-radius:4px;
 .green{background:#b8d8b8;}
 .red{background:#d9534f;}
 .grey{background:#dddddd;}
-.split{background:linear-gradient(135deg,#b8d8b8 50%,#d9534f 50%);}
+.split{background:linear-gradient(180deg,#b8d8b8 50%,#d9534f 50%);}
 
 .calendar-nav{
 display:flex;
@@ -1197,12 +1204,12 @@ day.title="Previous stay departs in the morning, new arrival in the evening: ful
 day.innerText=d;
 }
 else if(isArrivalDay(dayDate)){
-day.classList.add("turnover");
+day.classList.add("turnover","arrival");
 day.title="Changeover day: departure possible before 10am, new arrival from 4pm.";
 day.innerHTML=`<span class="day-num">${d}</span>`;
 }
 else if(isDepartureDay(dayDate)){
-day.classList.add("turnover");
+day.classList.add("turnover","departure");
 day.title="Changeover day: the previous stay ends that morning before 10am, the property is free afterwards.";
 day.innerHTML=`<span class="day-num">${d}</span>`;
 }
