@@ -1076,7 +1076,7 @@ function isArrivalDay(date){
 return arrivalDates.has(formatISO(date));
 }
 
-function isSameDayTurnover(date){
+function isDepartureDay(date){
 return departureDates.has(formatISO(date));
 }
 
@@ -1191,7 +1191,7 @@ today.getDate()
 day.classList.add("past");
 day.innerText=d;
 }
-else if(isArrivalDay(dayDate) && isSameDayTurnover(dayDate)){
+else if(isArrivalDay(dayDate) && isDepartureDay(dayDate)){
 day.classList.add("booked");
 day.title="Previous stay departs in the morning, new arrival in the evening: fully occupied that day.";
 day.innerText=d;
@@ -1199,6 +1199,11 @@ day.innerText=d;
 else if(isArrivalDay(dayDate)){
 day.classList.add("turnover");
 day.title="Changeover day: departure possible before 10am, new arrival from 4pm.";
+day.innerHTML=`<span class="day-num">${d}</span>`;
+}
+else if(isDepartureDay(dayDate)){
+day.classList.add("turnover");
+day.title="Changeover day: the previous stay ends that morning before 10am, the property is free afterwards.";
 day.innerHTML=`<span class="day-num">${d}</span>`;
 }
 else if(isReserved(dayDate)){
