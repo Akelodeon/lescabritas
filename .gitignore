@@ -1,3 +1,6 @@
 # macOS
 .DS_Store
 **/.DS_Store
+
+# Fichiers temporaires generes pendant les sessions de travail
+_to_delete/
