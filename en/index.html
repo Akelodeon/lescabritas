@@ -1056,8 +1056,6 @@ return false;
 
 }
 
-const arrivalDates = new Set(reservations.map(r => r.start));
-
 function formatISO(date){
 let y = date.getFullYear();
 let m = String(date.getMonth()+1).padStart(2,"0");
@@ -1065,8 +1063,21 @@ let d = String(date.getDate()).padStart(2,"0");
 return `${y}-${m}-${d}`;
 }
 
+function addDays(dateStr,n){
+let d = new Date(dateStr + "T12:00:00");
+d.setDate(d.getDate()+n);
+return formatISO(d);
+}
+
+const arrivalDates = new Set(reservations.map(r => r.start));
+const departureDates = new Set(reservations.map(r => addDays(r.end,1)));
+
 function isArrivalDay(date){
 return arrivalDates.has(formatISO(date));
+}
+
+function isSameDayTurnover(date){
+return departureDates.has(formatISO(date));
 }
 
 const container =
@@ -1180,9 +1191,14 @@ today.getDate()
 day.classList.add("past");
 day.innerText=d;
 }
+else if(isArrivalDay(dayDate) && isSameDayTurnover(dayDate)){
+day.classList.add("booked");
+day.title="Previous stay departs in the morning, new arrival in the evening: fully occupied that day.";
+day.innerText=d;
+}
 else if(isArrivalDay(dayDate)){
 day.classList.add("turnover");
-day.title="Changeover day: previous stay ends before 10am, new arrival from 4pm.";
+day.title="Changeover day: departure possible before 10am, new arrival from 4pm.";
 day.innerHTML=`<span class="day-num">${d}</span>`;
 }
 else if(isReserved(dayDate)){
