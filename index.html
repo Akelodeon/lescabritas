@@ -160,6 +160,26 @@ h1{
 font-size:2.5rem;
 }
 
+header{
+position:relative;
+height:100svh;
+}
+
+header::before{
+content:"";
+position:absolute;
+inset:0;
+background:linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.3) 45%,rgba(0,0,0,.55));
+z-index:0;
+}
+
+.overlay{
+position:relative;
+z-index:1;
+width:100%;
+box-sizing:border-box;
+}
+
 .host{
 display:block;
 text-align:center;
@@ -609,7 +629,7 @@ Les amateurs de randonnée et de vélo apprécieront également la proximité de
 <h3>Le logement</h3>
 <p>
 Belle maison récente de 89 m² implantée sur un terrain clos de 450 m². Un toilette est disponible à chaque étage.
-Piscine privée de 10 m² (4 m x 2,5 m), profondeur 1m20, non chauffée, sécurisée par une alarme et ouverte du 1er mai au 30 septembre. Piscine sans clôture ni verrou : la vigilance des parents est recommandée pour les jeunes enfants.
+Piscine privée de 10 m² (4 m x 2,5 m), profondeur 1m20, non chauffée, sécurisée par une alarme et ouverte du 1er mai au 30 septembre. La vigilance des parents est obligatoire pour les jeunes enfants.
 </p>
 
 <p>
