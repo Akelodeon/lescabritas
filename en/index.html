@@ -162,7 +162,7 @@ header::before{
 content:"";
 position:absolute;
 inset:0;
-background:linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.3) 45%,rgba(0,0,0,.55));
+background:linear-gradient(180deg,rgba(0,0,0,.22),rgba(0,0,0,.08) 45%,rgba(0,0,0,.28));
 z-index:0;
 }
 
@@ -257,6 +257,35 @@ background:#d9534f;
 color:white;
 }
 
+.turnover{
+display:flex;
+align-items:center;
+justify-content:center;
+cursor:help;
+}
+
+.turnover.arrival{
+background:linear-gradient(135deg,#b8d8b8 0%,#b8d8b8 49%,#d9534f 51%,#d9534f 100%);
+}
+
+.turnover.departure{
+background:linear-gradient(135deg,#d9534f 0%,#d9534f 49%,#b8d8b8 51%,#b8d8b8 100%);
+}
+
+.turnover .day-num{
+background:#fff;
+color:#233018;
+width:22px;
+height:22px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+font-size:.8rem;
+box-shadow:0 1px 3px rgba(0,0,0,.25);
+}
+
 .past{
 background:#dddddd;
 color:#777;
@@ -276,7 +305,7 @@ align-items:center;
 gap:8px;
 }
 
-.green,.red,.grey{
+.green,.red,.grey,.split{
 width:18px;
 height:18px;
 display:inline-block;
@@ -286,6 +315,7 @@ border-radius:4px;
 .green{background:#b8d8b8;}
 .red{background:#d9534f;}
 .grey{background:#dddddd;}
+.split{background:linear-gradient(135deg,#b8d8b8 50%,#d9534f 50%);}
 
 .calendar-nav{
 display:flex;
@@ -986,8 +1016,13 @@ For any booking or information request,<br>
 <div class="legend">
 <span><span class="green"></span> Available</span>
 <span><span class="red"></span> Booked</span>
+<span><span class="split"></span> Changeover day</span>
 <span><span class="grey"></span> Past</span>
 </div>
+
+<p style="text-align:center;max-width:700px;margin:0 auto 25px;font-size:.9rem;color:#555;">
+A "changeover day" means the previous stay ends that morning (departure before 10am) and a new guest is expected from 4pm onward: both half-days are genuinely available separately.
+</p>
 
 <div class="calendar-nav">
 
@@ -1026,6 +1061,30 @@ return true;
 
 return false;
 
+}
+
+function formatISO(date){
+let y = date.getFullYear();
+let m = String(date.getMonth()+1).padStart(2,"0");
+let d = String(date.getDate()).padStart(2,"0");
+return `${y}-${m}-${d}`;
+}
+
+function addDays(dateStr,n){
+let d = new Date(dateStr + "T12:00:00");
+d.setDate(d.getDate()+n);
+return formatISO(d);
+}
+
+const arrivalDates = new Set(reservations.map(r => r.start));
+const departureDates = new Set(reservations.map(r => addDays(r.end,1)));
+
+function isArrivalDay(date){
+return arrivalDates.has(formatISO(date));
+}
+
+function isDepartureDay(date){
+return departureDates.has(formatISO(date));
 }
 
 const container =
@@ -1137,15 +1196,31 @@ today.getMonth(),
 today.getDate()
 )){
 day.classList.add("past");
+day.innerText=d;
+}
+else if(isArrivalDay(dayDate) && isDepartureDay(dayDate)){
+day.classList.add("booked");
+day.title="Previous stay departs in the morning, new arrival in the evening: fully occupied that day.";
+day.innerText=d;
+}
+else if(isArrivalDay(dayDate)){
+day.classList.add("turnover","arrival");
+day.title="Changeover day: departure possible before 10am, new arrival from 4pm.";
+day.innerHTML=`<span class="day-num">${d}</span>`;
+}
+else if(isDepartureDay(dayDate)){
+day.classList.add("turnover","departure");
+day.title="Changeover day: the previous stay ends that morning before 10am, the property is free afterwards.";
+day.innerHTML=`<span class="day-num">${d}</span>`;
 }
 else if(isReserved(dayDate)){
 day.classList.add("booked");
+day.innerText=d;
 }
 else{
 day.classList.add("available");
-}
-
 day.innerText=d;
+}
 
 daysDiv.appendChild(day);
 
