@@ -264,6 +264,28 @@ background:#d9534f;
 color:white;
 }
 
+.turnover{
+background:linear-gradient(135deg,#b8d8b8 0%,#b8d8b8 49%,#d9534f 51%,#d9534f 100%);
+display:flex;
+align-items:center;
+justify-content:center;
+cursor:help;
+}
+
+.turnover .day-num{
+background:#fff;
+color:#233018;
+width:22px;
+height:22px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+font-size:.8rem;
+box-shadow:0 1px 3px rgba(0,0,0,.25);
+}
+
 .past{
 background:#dddddd;
 color:#777;
@@ -283,7 +305,7 @@ align-items:center;
 gap:8px;
 }
 
-.green,.red,.grey{
+.green,.red,.grey,.split{
 width:18px;
 height:18px;
 display:inline-block;
@@ -293,6 +315,7 @@ border-radius:4px;
 .green{background:#b8d8b8;}
 .red{background:#d9534f;}
 .grey{background:#dddddd;}
+.split{background:linear-gradient(135deg,#b8d8b8 50%,#d9534f 50%);}
 
 .calendar-nav{
 display:flex;
@@ -993,8 +1016,13 @@ Pour toute réservation ou demande d'information,<br>
 <div class="legend">
 <span><span class="green"></span> Disponible</span>
 <span><span class="red"></span> Réservé</span>
+<span><span class="split"></span> Jour de changement</span>
 <span><span class="grey"></span> Passé</span>
 </div>
+
+<p style="text-align:center;max-width:700px;margin:0 auto 25px;font-size:.9rem;color:#555;">
+Un « jour de changement » signifie que le séjour précédent se termine ce matin-là (départ avant 10h) et qu'un nouvel arrivant est attendu à partir de 16h : ces deux demi-journées sont donc bien disponibles séparément.
+</p>
 
 <div class="calendar-nav">
 
@@ -1034,6 +1062,19 @@ return true;
 
 return false;
 
+}
+
+const arrivalDates = new Set(reservations.map(r => r.start));
+
+function formatISO(date){
+let y = date.getFullYear();
+let m = String(date.getMonth()+1).padStart(2,"0");
+let d = String(date.getDate()).padStart(2,"0");
+return `${y}-${m}-${d}`;
+}
+
+function isArrivalDay(date){
+return arrivalDates.has(formatISO(date));
 }
 
 const container =
@@ -1145,15 +1186,21 @@ today.getMonth(),
 today.getDate()
 )){
 day.classList.add("past");
+day.innerText=d;
+}
+else if(isArrivalDay(dayDate)){
+day.classList.add("turnover");
+day.title="Jour de changement : départ du séjour précédent avant 10h, nouvelle arrivée à partir de 16h.";
+day.innerHTML=`<span class="day-num">${d}</span>`;
 }
 else if(isReserved(dayDate)){
 day.classList.add("booked");
+day.innerText=d;
 }
 else{
 day.classList.add("available");
-}
-
 day.innerText=d;
+}
 
 daysDiv.appendChild(day);
 
