@@ -384,6 +384,41 @@ opacity:.8;
 .lightbox-overlay img{max-width:min(90vw,calc(100vw - 90px));}
 }
 
+.sticky-cta{display:none;}
+.trust-bar{background:#fff;text-align:center;padding:14px 20px;box-shadow:0 4px 15px rgba(0,0,0,.06);}
+.trust-bar a{color:#40543d;font-weight:bold;text-decoration:none;font-size:1.05rem;}
+.trust-bar a:hover{text-decoration:underline;}
+
+@media(max-width:768px){
+.sticky-cta{
+display:flex;
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+z-index:600;
+background:rgba(255,255,255,.97);
+padding:10px 16px;
+box-shadow:0 -4px 15px rgba(0,0,0,.15);
+justify-content:center;
+}
+.sticky-cta a{
+width:100%;
+max-width:420px;
+text-align:center;
+background:#40543d;
+color:#fff;
+padding:14px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+font-size:1rem;
+}
+body{
+padding-bottom:70px;
+}
+}
+
 </style>
 
 <script type="application/ld+json">
@@ -436,6 +471,10 @@ opacity:.8;
 </head>
 <body>
 
+<div class="sticky-cta">
+<a href="#calendrier">📅 Check availability</a>
+</div>
+
 <div class="lang-switch">
 <a href="../index.html" title="Français">🇫🇷</a>
 <a href="index.html" class="active" title="English">🇬🇧</a>
@@ -453,6 +492,10 @@ Cliff views
 <a href="#villa" class="btn">Discover the cottage</a>
 </div>
 </header>
+
+<div class="trust-bar">
+<a href="https://www.airbnb.fr/rooms/886921817880695048" target="_blank" rel="noopener">⭐⭐⭐⭐⭐ 4.98/5 — Verified reviews on Airbnb</a>
+</div>
 
 <section id="villa">
 <h2>Your stay at Les Cabritas</h2>
@@ -472,6 +515,86 @@ the house is an ideal base for exploring the region's major tourist sites.
 Hiking and cycling enthusiasts will also appreciate the proximity of the ViaRhôna
 (6 km), the Dolce Via and the Payre greenway.
 </p>
+</section>
+
+<section>
+<h2>Gallery</h2>
+
+<div class="grid gallery">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-maison-piscine.jpg"
+     alt="Les Cabritas cottage with private pool in Ardèche">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-terrasse.jpg"
+     alt="Outdoor terrace of Les Cabritas cottage in Flaviac">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-salon.jpg"
+     alt="Comfortable air-conditioned living room at Les Cabritas">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-cuisine.jpg"
+     alt="Fully equipped kitchen at Les Cabritas cottage">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-salon-cuisine-vue.jpg"
+     alt="Dining area with view of the kitchen and living room at Les Cabritas">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-salon-salle-a-manger.jpg"
+     alt="Living and dining area at Les Cabritas cottage">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-chambre-parentale.jpg"
+     alt="Main bedroom with king-size bed">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-chambre-double.jpg"
+     alt="Bedroom with two single beds">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-piece-a-l-etage.jpg"
+     alt="Upstairs room at Les Cabritas cottage">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-salle-bain.jpg"
+     alt="Upstairs bathroom at Les Cabritas cottage">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-salle-bain-douche.jpg"
+     alt="Upstairs bathroom with walk-in shower at Les Cabritas">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-salle-eau.jpg"
+     alt="Upstairs bathroom with corner bathtub at Les Cabritas">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-vue-falaises.jpg"
+     alt="View of the cliffs from Les Cabritas in Ardèche">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-jardin-vue-piscine.jpg"
+     alt="Elevated view of the garden, pool and cliffs from Les Cabritas">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-maison-piscine-angle2.jpg"
+     alt="Facade of Les Cabritas villa with its private pool">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-pergola-piscine.jpg"
+     alt="Covered terrace overlooking the pool and cliffs">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-pergola-piscine-vue2.jpg"
+     alt="View from the pergola over the pool, garden and cliffs">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-terrasse-salon.jpg"
+     alt="Outdoor lounge corner on the terrace with cliff views">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-wc-vasque.jpg"
+     alt="Ground floor toilet with basin at Les Cabritas cottage">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-wc-toilettes.jpg"
+     alt="Ground floor toilet at Les Cabritas cottage">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-facade-jardin.jpg"
+     alt="Facade and garden of Les Cabritas cottage with cliff views">
+
+<img loading="lazy" decoding="async" src="../images/maison/flaviac-piscine-falaises-2.jpg"
+     alt="Private pool facing the cliffs from the garden at Les Cabritas">
+
+<img loading="lazy" decoding="async" src="../images/maison/meuble-tourisme-3-etoiles.jpg"
+     alt="Official French 3-star holiday rental classification label - Atout France, registration number 07090000002AM">
+
+</div>
+</section>
+
+<section>
 
 <div class="grid">
 
@@ -545,83 +668,6 @@ Two comfortable bedrooms:
 </div>
 </section>
 
-<section>
-<h2>Gallery</h2>
-
-<div class="grid gallery">
-
-<img src="../images/maison/flaviac-maison-piscine.jpg"
-     alt="Les Cabritas cottage with private pool in Ardèche">
-
-<img src="../images/maison/flaviac-terrasse.jpg"
-     alt="Outdoor terrace of Les Cabritas cottage in Flaviac">
-
-<img src="../images/maison/flaviac-salon.jpg"
-     alt="Comfortable air-conditioned living room at Les Cabritas">
-
-<img src="../images/maison/flaviac-cuisine.jpg"
-     alt="Fully equipped kitchen at Les Cabritas cottage">
-
-<img src="../images/maison/flaviac-salon-cuisine-vue.jpg"
-     alt="Dining area with view of the kitchen and living room at Les Cabritas">
-
-<img src="../images/maison/flaviac-salon-salle-a-manger.jpg"
-     alt="Living and dining area at Les Cabritas cottage">
-
-<img src="../images/maison/flaviac-chambre-parentale.jpg"
-     alt="Main bedroom with king-size bed">
-
-<img src="../images/maison/flaviac-chambre-double.jpg"
-     alt="Bedroom with two single beds">
-
-<img src="../images/maison/flaviac-piece-a-l-etage.jpg"
-     alt="Upstairs room at Les Cabritas cottage">
-
-<img src="../images/maison/flaviac-salle-bain.jpg"
-     alt="Upstairs bathroom at Les Cabritas cottage">
-
-<img src="../images/maison/flaviac-salle-bain-douche.jpg"
-     alt="Upstairs bathroom with walk-in shower at Les Cabritas">
-
-<img src="../images/maison/flaviac-salle-eau.jpg"
-     alt="Upstairs bathroom with corner bathtub at Les Cabritas">
-
-<img src="../images/maison/flaviac-vue-falaises.jpg"
-     alt="View of the cliffs from Les Cabritas in Ardèche">
-
-<img src="../images/maison/flaviac-jardin-vue-piscine.jpg"
-     alt="Elevated view of the garden, pool and cliffs from Les Cabritas">
-
-<img src="../images/maison/flaviac-maison-piscine-angle2.jpg"
-     alt="Facade of Les Cabritas villa with its private pool">
-
-<img src="../images/maison/flaviac-pergola-piscine.jpg"
-     alt="Covered terrace overlooking the pool and cliffs">
-
-<img src="../images/maison/flaviac-pergola-piscine-vue2.jpg"
-     alt="View from the pergola over the pool, garden and cliffs">
-
-<img src="../images/maison/flaviac-terrasse-salon.jpg"
-     alt="Outdoor lounge corner on the terrace with cliff views">
-
-<img src="../images/maison/flaviac-wc-vasque.jpg"
-     alt="Ground floor toilet with basin at Les Cabritas cottage">
-
-<img src="../images/maison/flaviac-wc-toilettes.jpg"
-     alt="Ground floor toilet at Les Cabritas cottage">
-
-<img src="../images/maison/flaviac-facade-jardin.jpg"
-     alt="Facade and garden of Les Cabritas cottage with cliff views">
-
-<img src="../images/maison/flaviac-piscine-falaises-2.jpg"
-     alt="Private pool facing the cliffs from the garden at Les Cabritas">
-
-<img src="../images/maison/meuble-tourisme-3-etoiles.jpg"
-     alt="Official French 3-star holiday rental classification label - Atout France, registration number 07090000002AM">
-
-</div>
-</section>
-
 <div class="lightbox-overlay" id="lightbox">
 <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
 <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">&#10094;</button>
@@ -641,85 +687,85 @@ From Les Cabritas, discover the most beautiful natural and tourist sites of Ard�
 <div class="grid visit-grid">
 
 <a class="visit-card" href="pont-arc.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/Pont_Arc.jpeg" alt="Pont d'Arc">
+<img loading="lazy" decoding="async" src="../images/ardeche/Pont_Arc.jpeg" alt="Pont d'Arc">
 <h3>Pont d'Arc</h3>
 <p>The iconic natural arch of the Ardèche Gorges.</p>
 </a>
 
 <a class="visit-card" href="grotte-chauvet.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/grotte-chauvet2.jpg" alt="Chauvet Cave 2">
+<img loading="lazy" decoding="async" src="../images/ardeche/grotte-chauvet2.jpg" alt="Chauvet Cave 2">
 <h3>Chauvet Cave 2</h3>
 <p>A fascinating immersion into UNESCO-listed prehistoric art.</p>
 </a>
 
 <a class="visit-card" href="balazuc.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/balazuc.jpeg" alt="Balazuc">
+<img loading="lazy" decoding="async" src="../images/ardeche/balazuc.jpeg" alt="Balazuc">
 <h3>Balazuc</h3>
 <p>One of the most beautiful villages in France, perched above the river.</p>
 </a>
 
 <a class="visit-card" href="dolce-via.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/dolcevia.jpeg" alt="Dolce Via">
+<img loading="lazy" decoding="async" src="../images/ardeche/dolcevia.jpeg" alt="Dolce Via">
 <h3>Dolce Via</h3>
 <p>An outstanding greenway for cycling or walking.</p>
 </a>
 
 <a class="visit-card" href="vals-les-bains.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/vals.jpeg" alt="Vals-les-Bains">
+<img loading="lazy" decoding="async" src="../images/ardeche/vals.jpeg" alt="Vals-les-Bains">
 <h3>Vals-les-Bains</h3>
 <p>A spa town renowned for its springs and its market.</p>
 </a>
 
 <a class="visit-card" href="gerbier-de-jonc.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/gerbier-de-jonc.jpg" alt="Mont Gerbier de Jonc">
+<img loading="lazy" decoding="async" src="../images/ardeche/gerbier-de-jonc.jpg" alt="Mont Gerbier de Jonc">
 <h3>Mont Gerbier de Jonc</h3>
 <p>The famous volcano where the source of the Loire river rises.</p>
 </a>
 
 <a class="visit-card" href="train-ardeche.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/train-ardeche.jpg" alt="Ardèche steam train">
+<img loading="lazy" decoding="async" src="../images/ardeche/train-ardeche.jpg" alt="Ardèche steam train">
 <h3>Ardèche Steam Train</h3>
 <p>An authentic ride aboard a historic steam train.</p>
 </a>
 
 <a class="visit-card" href="ruoms-labeaume.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/ruoms-labeaume.jpg" alt="Ruoms and Labeaume">
+<img loading="lazy" decoding="async" src="../images/ardeche/ruoms-labeaume.jpg" alt="Ruoms and Labeaume">
 <h3>Ruoms and Labeaume</h3>
 <p>Two villages of southern Ardèche, with ramparts and hanging gardens.</p>
 </a>
 
 <a class="visit-card" href="chateau-de-crussol.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/chateau-de-crussol.jpg" alt="Château de Crussol">
+<img loading="lazy" decoding="async" src="../images/ardeche/chateau-de-crussol.jpg" alt="Château de Crussol">
 <h3>Château de Crussol</h3>
 <p>A medieval fortress perched above the Rhône valley.</p>
 </a>
 
 <a class="visit-card" href="fort-mahon-jaubernie.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/fort-mahon-jaubernie.jpg" alt="Fort Mahon and the Jaubernie caves">
+<img loading="lazy" decoding="async" src="../images/ardeche/fort-mahon-jaubernie.jpg" alt="Fort Mahon and the Jaubernie caves">
 <h3>Fort Mahon and the Jaubernie</h3>
 <p>A hike through the hamlets of Flaviac, starting right from the cottage.</p>
 </a>
 
 <a class="visit-card" href="privas.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/privas.jpg" alt="Privas">
+<img loading="lazy" decoding="async" src="../images/ardeche/privas.jpg" alt="Privas">
 <h3>Privas</h3>
 <p>The county town of Ardèche and its candied chestnut capital, 10 minutes away.</p>
 </a>
 
 <a class="visit-card" href="rochemaure-saint-vincent-de-barres.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/rochemaure-saint-vincent-de-barres.jpg" alt="Rochemaure and Saint-Vincent-de-Barrès">
+<img loading="lazy" decoding="async" src="../images/ardeche/rochemaure-saint-vincent-de-barres.jpg" alt="Rochemaure and Saint-Vincent-de-Barrès">
 <h3>Rochemaure</h3>
 <p>Medieval village and spectacular Himalayan footbridge over the Rhône.</p>
 </a>
 
 <a class="visit-card" href="aven-orgnac.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/aven-orgnac.jpg" alt="Aven d'Orgnac">
+<img loading="lazy" decoding="async" src="../images/ardeche/aven-orgnac.jpg" alt="Aven d'Orgnac">
 <h3>Aven d'Orgnac</h3>
 <p>A spectacular cave listed as a Grand Site de France.</p>
 </a>
 
 <a class="visit-card" href="chassezac.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/ardeche/chassezac.jpg" alt="Gorges du Chassezac">
+<img loading="lazy" decoding="async" src="../images/ardeche/chassezac.jpg" alt="Gorges du Chassezac">
 <h3>The Chassezac</h3>
 <p>A wild canyon, famous for canoeing amid unspoiled nature.</p>
 </a>
@@ -738,61 +784,61 @@ From Les Cabritas, the Drôme isn't far. You can discover perched villages, Prov
 <div class="grid visit-grid">
 
 <a class="visit-card" href="vallee-drome.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/La-Drome.jpeg" alt="Drôme Valley">
+<img loading="lazy" decoding="async" src="../images/drome/La-Drome.jpeg" alt="Drôme Valley">
 <h3>Drôme Valley</h3>
 <p>Magnificent landscapes and turquoise waters to discover.</p>
 </a>
 
 <a class="visit-card" href="valence.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/valence.jpg" alt="Valence">
+<img loading="lazy" decoding="async" src="../images/drome/valence.jpg" alt="Valence">
 <h3>Valence</h3>
 <p>The county town of the Drôme, its Kiosque Peynet and historic centre.</p>
 </a>
 
 <a class="visit-card" href="tour-de-crest.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/tour-de-crest.jpg" alt="Tour de Crest">
+<img loading="lazy" decoding="async" src="../images/drome/tour-de-crest.jpg" alt="Tour de Crest">
 <h3>Tour de Crest</h3>
 <p>The tallest keep in France and 900 years of history.</p>
 </a>
 
 <a class="visit-card" href="vercors-grands-goulets.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/vercors-grands-goulets.jpg" alt="Vercors and Gorges des Grands Goulets">
+<img loading="lazy" decoding="async" src="../images/drome/vercors-grands-goulets.jpg" alt="Vercors and Gorges des Grands Goulets">
 <h3>The Vercors drômois</h3>
 <p>Sheer cliffs and Resistance history at Vassieux.</p>
 </a>
 
 <a class="visit-card" href="drome-provencale.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/drome-provencale.jpg" alt="Drôme provençale, Nyons and Buis-les-Baronnies">
+<img loading="lazy" decoding="async" src="../images/drome/drome-provencale.jpg" alt="Drôme provençale, Nyons and Buis-les-Baronnies">
 <h3>The Drôme provençale</h3>
 <p>Nyons, Buis-les-Baronnies: olive groves and markets with a scent of Provence.</p>
 </a>
 
 <a class="visit-card" href="montelimar.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/montelimar.jpg" alt="Montélimar">
+<img loading="lazy" decoding="async" src="../images/drome/montelimar.jpg" alt="Montélimar">
 <h3>Montélimar</h3>
 <p>The nougat capital and its Château des Adhémar.</p>
 </a>
 
 <a class="visit-card" href="mirmande.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/mirmande.jpg" alt="Mirmande">
+<img loading="lazy" decoding="async" src="../images/drome/mirmande.jpg" alt="Mirmande">
 <h3>Mirmande</h3>
 <p>One of the Most Beautiful Villages of France, perched above the Rhône.</p>
 </a>
 
 <a class="visit-card" href="palais-ideal-facteur-cheval.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/palais-ideal-facteur-cheval.jpg" alt="Le Palais Idéal du Facteur Cheval">
+<img loading="lazy" decoding="async" src="../images/drome/palais-ideal-facteur-cheval.jpg" alt="Le Palais Idéal du Facteur Cheval">
 <h3>Le Palais Idéal du Facteur Cheval</h3>
 <p>The unique work of a self-taught postman, 33 years of building in Hauterives.</p>
 </a>
 
 <a class="visit-card" href="trois-becs.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/trois-becs.jpg" alt="Les Trois Becs">
+<img loading="lazy" decoding="async" src="../images/drome/trois-becs.jpg" alt="Les Trois Becs">
 <h3>Les Trois Becs</h3>
 <p>A demanding hike with an exceptional view over the Vercors.</p>
 </a>
 
 <a class="visit-card" href="pierrelatte-ferme-crocodiles.html" style="text-decoration:none;color:inherit;display:block;">
-<img src="../images/drome/pierrelatte-ferme-crocodiles.jpg" alt="Ferme aux Crocodiles de Pierrelatte">
+<img loading="lazy" decoding="async" src="../images/drome/pierrelatte-ferme-crocodiles.jpg" alt="Ferme aux Crocodiles de Pierrelatte">
 <h3>Crocodile Farm</h3>
 <p>Europe's largest animal park dedicated to reptiles.</p>
 </a>
@@ -848,7 +894,7 @@ Welcome to Les Cabritas, your Ardèche getaway.
 
 <div class="host">
 
-<img src="../axel-tato-leon.jpg"
+<img loading="lazy" decoding="async" src="../axel-tato-leon.jpg"
      alt="Axel Bogiraud, host of Les Cabritas cottage in Ardèche">
 
 <div class="host-text">
@@ -889,6 +935,19 @@ I remain available before your arrival and throughout your stay to offer advice,
 </svg>
 </a>
 
+<a href="https://www.instagram.com/lescabritasardeche/" target="_blank" aria-label="Instagram" style="display:inline-flex;align-items:center;">
+<svg width="40" height="40" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+<defs>
+<linearGradient id="igGradientEn" x1="0%" y1="100%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#FFDD55"/>
+<stop offset="50%" stop-color="#E1306C"/>
+<stop offset="100%" stop-color="#5851DB"/>
+</linearGradient>
+</defs>
+<path fill="url(#igGradientEn)" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+</svg>
+</a>
+
 </div>
 </div>
 </div>
@@ -925,7 +984,7 @@ For any booking or information request,<br>
 
 <section style="padding:0;max-width:none;">
 
-<img src="../signature-lescabritas.jpg"
+<img loading="lazy" decoding="async" src="../signature-lescabritas.jpg"
      alt="Les Cabritas cottage, Ardèche"
      style="width:100%;display:block;">
 </section>
