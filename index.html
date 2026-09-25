@@ -62,28 +62,9 @@ h1{font-size:4rem;margin:0;line-height:1.1;}
 .house-body{padding:25px 30px 30px;display:flex;flex-direction:column;flex:1;}
 .house h3{margin:0;color:var(--green);font-size:1.6rem;}
 .place{margin:2px 0 12px;color:#777;font-size:.95rem;}
-.house ul{padding-left:20px;margin:10px 0 20px;}
+.house ul{padding-left:20px;margin:10px 0 15px;}
+.ideal{background:var(--sand);border-left:4px solid var(--green);padding:10px 15px;border-radius:0 10px 10px 0;margin:0 0 20px;}
 .house .btn{align-self:flex-start;margin-top:auto;}
-/* comparatif */
-.table-wrap{overflow-x:auto;max-width:1000px;margin:auto;background:#fff;border-radius:16px;box-shadow:0 8px 25px rgba(0,0,0,.08);}
-table{width:100%;border-collapse:collapse;min-width:560px;}
-th,td{padding:12px 18px;text-align:left;vertical-align:top;border-bottom:1px solid var(--beige);}
-thead th{background:var(--green);color:#fff;font-size:1.05rem;}
-tbody th{color:var(--green);width:22%;font-size:.95rem;}
-tbody tr:last-child th,tbody tr:last-child td{border-bottom:none;}
-/* guide */
-.filters{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:30px;}
-.filters button{border:2px solid var(--green);background:#fff;color:var(--green);padding:8px 18px;border-radius:25px;font-size:.95rem;font-weight:bold;cursor:pointer;font-family:inherit;}
-.filters button[aria-pressed="true"]{background:var(--green);color:#fff;}
-.visit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
-.visit-card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,.08);text-decoration:none;color:inherit;display:flex;flex-direction:column;}
-.visit-card[hidden]{display:none;}
-.visit-card img{width:100%;height:190px;object-fit:cover;display:block;}
-.visit-card h3{margin:14px 18px 4px;color:var(--green);font-size:1.1rem;}
-.visit-card p{margin:0 18px 12px;font-size:.95rem;}
-.tags{margin:auto 18px 16px;display:flex;gap:6px;flex-wrap:wrap;}
-.tag{font-size:.75rem;padding:2px 9px;border-radius:12px;background:var(--beige);color:var(--dark);font-weight:bold;}
-.tag.sud{background:#f3dcc4;}
 /* esprit / hôte */
 .text-center{max-width:900px;margin:auto;text-align:center;line-height:1.9;}
 .host{display:flex;gap:40px;align-items:flex-start;max-width:1200px;margin:auto;}
@@ -100,7 +81,6 @@ footer a{color:#fff;}
 .lang-switch a{font-size:1.3rem;text-decoration:none;line-height:1;opacity:.45;filter:grayscale(70%);transition:.2s;}
 .lang-switch a.active{opacity:1;filter:none;}
 .sticky-cta{display:none;}
-@media(max-width:1000px){.visit-grid{grid-template-columns:repeat(2,1fr);}}
 @media(max-width:768px){
 h1{font-size:2.6rem;}
 h2{font-size:1.8rem;}
@@ -118,7 +98,6 @@ section{padding:40px 16px;}
 body{padding-bottom:70px;}
 .lang-switch{top:10px;right:10px;}
 }
-@media(max-width:560px){.visit-grid{grid-template-columns:1fr;}}
 </style>
 
 <script type="application/ld+json">
@@ -198,6 +177,7 @@ body{padding-bottom:70px;}
 <p class="place">📍 Flaviac, près de Privas</p>
 <p>Une villa contemporaine avec vue sur les falaises, au centre de l'Ardèche et de la Drôme : idéale pour rayonner entre Privas, la vallée du Rhône et les Gorges.</p>
 <ul><li>89 m² sur terrain clos de 450 m²</li><li>2 chambres · 4 voyageurs</li><li>Piscine privée 4 × 2,5 m</li><li>Climatisation intégrale · fibre 905 Mbit/s</li><li>Vue panoramique sur les falaises</li></ul>
+<p class="ideal"><strong>Idéale pour :</strong> rayonner entre Ardèche et Drôme, le vélo sur la ViaRhôna et la Dolce Via, le télétravail au calme. Pont d'Arc à environ 1 h.</p>
 <a class="btn" href="coeur-ardeche/">Découvrir Cœur d'Ardèche →</a>
 </div>
 </article>
@@ -208,293 +188,10 @@ body{padding-bottom:70px;}
 <p class="place">📍 Saint-Alban-Auriolles, près de Vallon-Pont-d'Arc</p>
 <p>Une maison neuve au cœur du Sud-Ardèche, à 10 minutes de Vallon-Pont-d'Arc et 5 minutes de Ruoms et Labeaume : les Gorges, les rivières et les villages de caractère à portée de main.</p>
 <ul><li>70 m² sur grand terrain de 850 m²</li><li>2 chambres · 4 voyageurs</li><li>Piscine bois hors sol 10 m²</li><li>Climatisation · fibre</li><li>Commerces et rivières à proximité</li></ul>
+<p class="ideal"><strong>Idéale pour :</strong> les Gorges de l'Ardèche, le canoë, la baignade en rivière et les villages de caractère. Pont d'Arc à environ 15 min.</p>
 <a class="btn" href="sud-ardeche/">Découvrir Sud-Ardèche →</a>
 </div>
 </article>
-</div>
-</section>
-
-<section>
-<h2>Quelle maison pour votre séjour ?</h2>
-<div class="table-wrap" style="margin-top:30px;">
-<table>
-<thead><tr><th></th><th>Cœur d'Ardèche</th><th>Sud-Ardèche</th></tr></thead>
-<tbody>
-<tr><th>Commune</th><td>Flaviac (07000)</td><td>Saint-Alban-Auriolles (07120)</td></tr>
-<tr><th>Surface / terrain</th><td>89 m² / 450 m² clos</td><td>70 m² / 850 m²</td></tr>
-<tr><th>Couchages</th><td>Lit king-size 200×200 + 2 lits 90×190 + lit bébé</td><td>Lit 140×190 + 2 lits 90×190</td></tr>
-<tr><th>Piscine</th><td>Enterrée 4 × 2,5 m, prof. 1,20 m, alarme</td><td>Bois hors sol 10 m², prof. 1,05 m</td></tr>
-<tr><th>Atouts</th><td>Vue sur les falaises, télétravail, streaming</td><td>Commerces à proximité, rivières, randonnées</td></tr>
-<tr><th>Pont d'Arc</th><td>≈ 1 h</td><td>≈ 15 min</td></tr>
-<tr><th>Privas / vallée du Rhône</th><td>10 à 25 min</td><td>≈ 1 h 15</td></tr>
-<tr><th>Idéal pour</th><td>Rayonner Ardèche + Drôme, vélo (ViaRhôna, Dolce Via)</td><td>Gorges de l'Ardèche, canoë, baignade, villages</td></tr>
-<tr><th>Disponibilités</th><td><a href="coeur-ardeche/#calendrier">Voir le calendrier</a></td><td><a href="sud-ardeche/#calendrier">Ouverture avril 2027</a></td></tr>
-</tbody>
-</table>
-</div>
-</section>
-
-<section id="decouvrir">
-<h2>Découvrir l'Ardèche et la Drôme</h2>
-<p class="intro">Nos coups de cœur autour des deux maisons. Filtrez selon votre point de chute.</p>
-<div class="filters" role="group" aria-label="Découvrir l'Ardèche et la Drôme">
-<button type="button" data-filter="all" aria-pressed="true">Tous les lieux</button>
-<button type="button" data-filter="coeur" aria-pressed="false">Autour de Cœur d'Ardèche</button>
-<button type="button" data-filter="sud" aria-pressed="false">Autour de Sud-Ardèche</button>
-</div>
-<div class="visit-grid">
-<a class="visit-card" href="balazuc.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/ardeche/balazuc.webp" alt="Balazuc">
-<h3>Balazuc</h3>
-<p>Un des plus beaux villages de France, perché au-dessus de la rivière.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="sentier-dolmens.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/sentier-dolmens.webp" alt="Sentier des Dolmens">
-<h3>Sentier des Dolmens</h3>
-<p>Boucle de 6 km à travers la garrigue, entre mégalithes millénaires.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="pont-arc.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/ardeche/Pont_Arc.webp" alt="Pont d'Arc">
-<h3>Pont d'Arc</h3>
-<p>L'arche naturelle emblématique des Gorges de l'Ardèche.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="mas-daudet.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/mas-daudet.webp" alt="Mas Daudet">
-<h3>Mas Daudet</h3>
-<p>La ferme-musée sur l'enfance ardéchoise d'Alphonse Daudet.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="chassezac.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/ardeche/chassezac.webp" alt="Les Gorges du Chassezac">
-<h3>Les Gorges du Chassezac</h3>
-<p>Un canyon sauvage réputé pour ses descentes en canoë.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="labeaume.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/labeaume.webp" alt="Labeaume">
-<h3>Labeaume</h3>
-<p>Maisons troglodytes, calades et jardins suspendus sur la Beaume.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="grotte-chauvet.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/ardeche/grotte-chauvet2.webp" alt="Grotte Chauvet 2">
-<h3>Grotte Chauvet 2</h3>
-<p>Une immersion fascinante dans l'art préhistorique classé à l'UNESCO.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="bois-de-paiolive.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/bois-de-paiolive.webp" alt="Bois de Païolive">
-<h3>Bois de Païolive</h3>
-<p>Une forêt de rochers karstiques aux formes étonnantes.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="aven-orgnac.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/ardeche/aven-orgnac.webp" alt="L'Aven d'Orgnac">
-<h3>L'Aven d'Orgnac</h3>
-<p>Galeries immenses et concrétions spectaculaires, Grand Site de France.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="ruoms.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/ruoms.webp" alt="Ruoms">
-<h3>Ruoms</h3>
-<p>Une route creusée dans la roche, canoë et via ferrata.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="vals-les-bains.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/ardeche/vals.webp" alt="Vals-les-Bains">
-<h3>Vals-les-Bains</h3>
-<p>Ville thermale réputée pour ses sources et son marché.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="grotte-cocaliere.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/grotte-cocaliere.webp" alt="Grotte de la Cocalière">
-<h3>Grotte de la Cocalière</h3>
-<p>La « grotte aux diamants », entre Gard et Ardèche.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="dolce-via.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/ardeche/dolcevia.webp" alt="Dolce Via">
-<h3>Dolce Via</h3>
-<p>Une voie verte exceptionnelle pour les balades à vélo ou à pied.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="les-vans.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/les-vans.webp" alt="Les Vans">
-<h3>Les Vans</h3>
-<p>Un marché réputé et la porte d'entrée du Bois de Païolive.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="gerbier-de-jonc.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/ardeche/gerbier-de-jonc.webp" alt="Mont Gerbier de Jonc">
-<h3>Mont Gerbier de Jonc</h3>
-<p>Le célèbre volcan d'où prend sa source la Loire.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="largentiere.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/largentiere.webp" alt="Largentière">
-<h3>Largentière</h3>
-<p>Cité médiévale née de ses mines d'argent.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="vallee-drome.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/drome/La-Drome.webp" alt="Vallée de la Drôme">
-<h3>Vallée de la Drôme</h3>
-<p>Des paysages magnifiques et des eaux turquoise à découvrir.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="chateau-de-vogue.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/chateau-de-vogue.webp" alt="Château de Vogüé">
-<h3>Château de Vogüé</h3>
-<p>Un château perché au-dessus d'un des Plus Beaux Villages de France.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="train-ardeche.html" data-houses="coeur sud">
-<img loading="lazy" decoding="async" src="images/ardeche/train-ardeche.webp" alt="Train de l'Ardèche">
-<h3>Train de l'Ardèche</h3>
-<p>Une balade authentique à bord d'un train à vapeur historique.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="gorges-ardeche.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/gorges-ardeche.webp" alt="Gorges de l'Ardèche">
-<h3>Gorges de l'Ardèche</h3>
-<p>La Haute Corniche et ses belvédères sur le canyon.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="ruoms-labeaume.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/ardeche/ruoms-labeaume.webp" alt="Ruoms et Labeaume">
-<h3>Ruoms et Labeaume</h3>
-<p>Deux villages du Sud Ardèche, entre remparts et jardins suspendus.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="aigueze.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/aigueze.webp" alt="Aiguèze">
-<h3>Aiguèze</h3>
-<p>Village médiéval perché, classé Plus Beaux Villages de France.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="chateau-de-crussol.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/ardeche/chateau-de-crussol.webp" alt="Château de Crussol">
-<h3>Château de Crussol</h3>
-<p>Une forteresse médiévale perchée au-dessus de la vallée du Rhône.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="aubenas.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/aubenas.webp" alt="Aubenas">
-<h3>Aubenas</h3>
-<p>Sous-préfecture de l'Ardèche et son château sur neuf siècles.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="fort-mahon-jaubernie.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/ardeche/fort-mahon-jaubernie.webp" alt="Fort Mahon et les Grottes de la Jaubernie">
-<h3>Fort Mahon et la Jaubernie</h3>
-<p>Une randonnée à travers les hameaux de Flaviac, au départ du gîte.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="grotte-madeleine.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/grotte-madeleine.webp" alt="Grotte de la Madeleine">
-<h3>Grotte de la Madeleine</h3>
-<p>Grotte concrétionnée et belvédère vertigineux sur les gorges.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="privas.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/ardeche/privas.webp" alt="Privas">
-<h3>Privas</h3>
-<p>La préfecture de l'Ardèche et sa capitale du marron glacé, à 10 minutes.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="alba-la-romaine.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/alba-la-romaine.webp" alt="Alba-la-Romaine">
-<h3>Alba-la-Romaine</h3>
-<p>Ancienne capitale gallo-romaine des Helviens.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="rochemaure-saint-vincent-de-barres.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/ardeche/rochemaure-saint-vincent-de-barres.webp" alt="Rochemaure et Saint-Vincent-de-Barrès">
-<h3>Rochemaure</h3>
-<p>Village médiéval et spectaculaire passerelle himalayenne sur le Rhône.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="thines.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/thines.webp" alt="Thines">
-<h3>Thines</h3>
-<p>Un hameau secret des Cévennes et sa splendide église romane.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="valence.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/drome/valence.webp" alt="Valence">
-<h3>Valence</h3>
-<p>La préfecture de la Drôme, son Kiosque Peynet et son centre historique.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="monts-ardeche.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/monts-ardeche.webp" alt="Monts d'Ardèche">
-<h3>Monts d'Ardèche</h3>
-<p>Randonnée, châtaigneraies et volcans, Géoparc mondial UNESCO.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="tour-de-crest.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/drome/tour-de-crest.webp" alt="Tour de Crest">
-<h3>Tour de Crest</h3>
-<p>Le plus haut donjon de France et 900 ans d'histoire.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="saint-montan.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/saint-montan.webp" alt="Saint-Montan">
-<h3>Saint-Montan</h3>
-<p>Un village médiéval sauvé pierre par pierre par des bénévoles.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="vercors-grands-goulets.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/drome/vercors-grands-goulets.webp" alt="Vercors et Gorges des Grands Goulets">
-<h3>Le Vercors drômois</h3>
-<p>Falaises vertigineuses et mémoire de la Résistance à Vassieux.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="thueyts.html" data-houses="sud">
-<img loading="lazy" decoding="async" src="images/ardeche/thueyts.webp" alt="Thueyts">
-<h3>Thueyts</h3>
-<p>La Chaussée des Géants et ses impressionnantes orgues basaltiques.</p>
-<div class="tags"><span class="tag sud">Sud-Ardèche</span></div>
-</a>
-<a class="visit-card" href="drome-provencale.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/drome/drome-provencale.webp" alt="Drôme provençale, Nyons et Buis-les-Baronnies">
-<h3>La Drôme provençale</h3>
-<p>Nyons, Buis-les-Baronnies : oliveraies et marchés au parfum de Provence.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="montelimar.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/drome/montelimar.webp" alt="Montélimar">
-<h3>Montélimar</h3>
-<p>La capitale du nougat et son Château des Adhémar.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="mirmande.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/drome/mirmande.webp" alt="Mirmande">
-<h3>Mirmande</h3>
-<p>Un des Plus Beaux Villages de France, perché au-dessus du Rhône.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="palais-ideal-facteur-cheval.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/drome/palais-ideal-facteur-cheval.webp" alt="Le Palais Idéal du Facteur Cheval">
-<h3>Le Palais Idéal du Facteur Cheval</h3>
-<p>L'œuvre unique d'un facteur autodidacte, 33 ans de construction à Hauterives.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="trois-becs.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/drome/trois-becs.webp" alt="Les Trois Becs">
-<h3>Les Trois Becs</h3>
-<p>Une randonnée sportive au panorama exceptionnel sur le Vercors.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
-<a class="visit-card" href="pierrelatte-ferme-crocodiles.html" data-houses="coeur">
-<img loading="lazy" decoding="async" src="images/drome/pierrelatte-ferme-crocodiles.webp" alt="Ferme aux Crocodiles de Pierrelatte">
-<h3>Ferme aux Crocodiles</h3>
-<p>Le plus grand parc animalier d'Europe dédié aux reptiles.</p>
-<div class="tags"><span class="tag coeur">Cœur d'Ardèche</span></div>
-</a>
 </div>
 </section>
 
@@ -594,18 +291,5 @@ Je reste disponible avant votre arrivée et pendant toute la durée de votre sé
 <p class="small"><a href="tel:+33783182016">+33 7 83 18 20 16</a> &nbsp;|&nbsp; <a href="mailto:bonjour@lescabritas.fr">bonjour@lescabritas.fr</a></p>
 </footer>
 
-<script>
-const filterButtons = document.querySelectorAll(".filters button");
-const placeCards = document.querySelectorAll("#decouvrir .visit-card");
-filterButtons.forEach(btn => {
-btn.addEventListener("click", () => {
-const f = btn.dataset.filter;
-filterButtons.forEach(b => b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
-placeCards.forEach(card => {
-card.hidden = f !== "all" && !card.dataset.houses.split(" ").includes(f);
-});
-});
-});
-</script>
 </body>
 </html>
