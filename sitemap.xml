@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.lescabritas.fr/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/"/>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/"/>
@@ -21,7 +21,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/"/>
@@ -29,8 +29,143 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/"/>
   </url>
   <url>
+    <loc>https://www.lescabritas.fr/coeur-ardeche/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/coeur-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/coeur-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/coeur-ardeche/"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/coeur-ardeche/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/coeur-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/coeur-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/coeur-ardeche/"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/coeur-ardeche/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/coeur-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/coeur-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/coeur-ardeche/"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/sud-ardeche/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/sud-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/sud-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/sud-ardeche/"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/sud-ardeche/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/sud-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/sud-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/sud-ardeche/"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/sud-ardeche/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/sud-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/sud-ardeche/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/sud-ardeche/"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/aigueze.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/aigueze.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/aigueze.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/aigueze.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/aigueze.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/aigueze.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/aigueze.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/aigueze.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/aigueze.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/aigueze.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/aigueze.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/aigueze.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/alba-la-romaine.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/alba-la-romaine.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/alba-la-romaine.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/alba-la-romaine.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/alba-la-romaine.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/alba-la-romaine.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/alba-la-romaine.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/alba-la-romaine.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/alba-la-romaine.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/alba-la-romaine.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/alba-la-romaine.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/alba-la-romaine.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/aubenas.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/aubenas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/aubenas.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/aubenas.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/aubenas.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/aubenas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/aubenas.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/aubenas.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/aubenas.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/aubenas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/aubenas.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/aubenas.html"/>
+  </url>
+  <url>
     <loc>https://www.lescabritas.fr/aven-orgnac.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/aven-orgnac.html"/>
@@ -39,7 +174,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/aven-orgnac.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/aven-orgnac.html"/>
@@ -48,7 +183,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/aven-orgnac.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/aven-orgnac.html"/>
@@ -57,7 +192,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/balazuc.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/balazuc.html"/>
@@ -66,7 +201,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/balazuc.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/balazuc.html"/>
@@ -75,7 +210,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/balazuc.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/balazuc.html"/>
@@ -83,8 +218,35 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/balazuc.html"/>
   </url>
   <url>
+    <loc>https://www.lescabritas.fr/bois-de-paiolive.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/bois-de-paiolive.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/bois-de-paiolive.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/bois-de-paiolive.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/bois-de-paiolive.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/bois-de-paiolive.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/bois-de-paiolive.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/bois-de-paiolive.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/bois-de-paiolive.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/bois-de-paiolive.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/bois-de-paiolive.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/bois-de-paiolive.html"/>
+  </url>
+  <url>
     <loc>https://www.lescabritas.fr/chassezac.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/chassezac.html"/>
@@ -93,7 +255,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/chassezac.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/chassezac.html"/>
@@ -102,7 +264,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/chassezac.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/chassezac.html"/>
@@ -111,7 +273,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/chateau-de-crussol.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/chateau-de-crussol.html"/>
@@ -120,7 +282,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/chateau-de-crussol.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/chateau-de-crussol.html"/>
@@ -129,7 +291,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/chateau-de-crussol.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/chateau-de-crussol.html"/>
@@ -137,8 +299,35 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/chateau-de-crussol.html"/>
   </url>
   <url>
+    <loc>https://www.lescabritas.fr/chateau-de-vogue.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/chateau-de-vogue.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/chateau-de-vogue.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/chateau-de-vogue.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/chateau-de-vogue.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/chateau-de-vogue.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/chateau-de-vogue.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/chateau-de-vogue.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/chateau-de-vogue.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/chateau-de-vogue.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/chateau-de-vogue.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/chateau-de-vogue.html"/>
+  </url>
+  <url>
     <loc>https://www.lescabritas.fr/dolce-via.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/dolce-via.html"/>
@@ -147,7 +336,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/dolce-via.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/dolce-via.html"/>
@@ -156,7 +345,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/dolce-via.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/dolce-via.html"/>
@@ -165,7 +354,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/drome-provencale.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/drome-provencale.html"/>
@@ -174,7 +363,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/drome-provencale.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/drome-provencale.html"/>
@@ -183,7 +372,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/drome-provencale.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/drome-provencale.html"/>
@@ -192,7 +381,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/fort-mahon-jaubernie.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/fort-mahon-jaubernie.html"/>
@@ -201,7 +390,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/fort-mahon-jaubernie.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/fort-mahon-jaubernie.html"/>
@@ -210,7 +399,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/fort-mahon-jaubernie.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/fort-mahon-jaubernie.html"/>
@@ -219,7 +408,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/gerbier-de-jonc.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/gerbier-de-jonc.html"/>
@@ -228,7 +417,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/gerbier-de-jonc.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/gerbier-de-jonc.html"/>
@@ -237,7 +426,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/gerbier-de-jonc.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/gerbier-de-jonc.html"/>
@@ -245,8 +434,35 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/gerbier-de-jonc.html"/>
   </url>
   <url>
+    <loc>https://www.lescabritas.fr/gorges-ardeche.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/gorges-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/gorges-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/gorges-ardeche.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/gorges-ardeche.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/gorges-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/gorges-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/gorges-ardeche.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/gorges-ardeche.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/gorges-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/gorges-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/gorges-ardeche.html"/>
+  </url>
+  <url>
     <loc>https://www.lescabritas.fr/grotte-chauvet.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/grotte-chauvet.html"/>
@@ -255,7 +471,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/grotte-chauvet.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/grotte-chauvet.html"/>
@@ -264,7 +480,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/grotte-chauvet.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/grotte-chauvet.html"/>
@@ -272,8 +488,170 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/grotte-chauvet.html"/>
   </url>
   <url>
+    <loc>https://www.lescabritas.fr/grotte-cocaliere.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/grotte-cocaliere.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/grotte-cocaliere.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/grotte-cocaliere.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/grotte-cocaliere.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/grotte-cocaliere.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/grotte-cocaliere.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/grotte-cocaliere.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/grotte-cocaliere.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/grotte-cocaliere.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/grotte-cocaliere.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/grotte-cocaliere.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/grotte-madeleine.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/grotte-madeleine.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/grotte-madeleine.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/grotte-madeleine.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/grotte-madeleine.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/grotte-madeleine.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/grotte-madeleine.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/grotte-madeleine.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/grotte-madeleine.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/grotte-madeleine.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/grotte-madeleine.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/grotte-madeleine.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/labeaume.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/labeaume.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/labeaume.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/labeaume.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/labeaume.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/labeaume.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/labeaume.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/labeaume.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/labeaume.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/labeaume.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/labeaume.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/labeaume.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/largentiere.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/largentiere.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/largentiere.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/largentiere.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/largentiere.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/largentiere.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/largentiere.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/largentiere.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/largentiere.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/largentiere.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/largentiere.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/largentiere.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/les-vans.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/les-vans.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/les-vans.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/les-vans.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/les-vans.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/les-vans.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/les-vans.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/les-vans.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/les-vans.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/les-vans.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/les-vans.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/les-vans.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/mas-daudet.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/mas-daudet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/mas-daudet.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/mas-daudet.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/mas-daudet.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/mas-daudet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/mas-daudet.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/mas-daudet.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/mas-daudet.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/mas-daudet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/mas-daudet.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/mas-daudet.html"/>
+  </url>
+  <url>
     <loc>https://www.lescabritas.fr/mirmande.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/mirmande.html"/>
@@ -282,7 +660,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/mirmande.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/mirmande.html"/>
@@ -291,7 +669,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/mirmande.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/mirmande.html"/>
@@ -300,7 +678,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/montelimar.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/montelimar.html"/>
@@ -309,7 +687,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/montelimar.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/montelimar.html"/>
@@ -318,7 +696,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/montelimar.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/montelimar.html"/>
@@ -326,8 +704,35 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/montelimar.html"/>
   </url>
   <url>
+    <loc>https://www.lescabritas.fr/monts-ardeche.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/monts-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/monts-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/monts-ardeche.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/monts-ardeche.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/monts-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/monts-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/monts-ardeche.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/monts-ardeche.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/monts-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/monts-ardeche.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/monts-ardeche.html"/>
+  </url>
+  <url>
     <loc>https://www.lescabritas.fr/palais-ideal-facteur-cheval.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/palais-ideal-facteur-cheval.html"/>
@@ -336,7 +741,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/palais-ideal-facteur-cheval.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/palais-ideal-facteur-cheval.html"/>
@@ -345,7 +750,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/palais-ideal-facteur-cheval.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/palais-ideal-facteur-cheval.html"/>
@@ -354,7 +759,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/pierrelatte-ferme-crocodiles.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/pierrelatte-ferme-crocodiles.html"/>
@@ -363,7 +768,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/pierrelatte-ferme-crocodiles.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/pierrelatte-ferme-crocodiles.html"/>
@@ -372,7 +777,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/pierrelatte-ferme-crocodiles.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/pierrelatte-ferme-crocodiles.html"/>
@@ -381,7 +786,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/pont-arc.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/pont-arc.html"/>
@@ -390,7 +795,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/pont-arc.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/pont-arc.html"/>
@@ -399,7 +804,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/pont-arc.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/pont-arc.html"/>
@@ -408,7 +813,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/privas.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/privas.html"/>
@@ -417,7 +822,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/privas.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/privas.html"/>
@@ -426,7 +831,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/privas.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/privas.html"/>
@@ -435,7 +840,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/rochemaure-saint-vincent-de-barres.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/rochemaure-saint-vincent-de-barres.html"/>
@@ -444,7 +849,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/rochemaure-saint-vincent-de-barres.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/rochemaure-saint-vincent-de-barres.html"/>
@@ -453,7 +858,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/rochemaure-saint-vincent-de-barres.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/rochemaure-saint-vincent-de-barres.html"/>
@@ -462,7 +867,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/ruoms-labeaume.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/ruoms-labeaume.html"/>
@@ -471,7 +876,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/ruoms-labeaume.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/ruoms-labeaume.html"/>
@@ -480,7 +885,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/ruoms-labeaume.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/ruoms-labeaume.html"/>
@@ -488,8 +893,143 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/ruoms-labeaume.html"/>
   </url>
   <url>
+    <loc>https://www.lescabritas.fr/ruoms.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/ruoms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/ruoms.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/ruoms.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/ruoms.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/ruoms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/ruoms.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/ruoms.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/ruoms.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/ruoms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/ruoms.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/ruoms.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/saint-montan.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/saint-montan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/saint-montan.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/saint-montan.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/saint-montan.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/saint-montan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/saint-montan.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/saint-montan.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/saint-montan.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/saint-montan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/saint-montan.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/saint-montan.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/sentier-dolmens.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/sentier-dolmens.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/sentier-dolmens.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/sentier-dolmens.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/sentier-dolmens.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/sentier-dolmens.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/sentier-dolmens.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/sentier-dolmens.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/sentier-dolmens.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/sentier-dolmens.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/sentier-dolmens.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/sentier-dolmens.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/thines.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/thines.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/thines.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/thines.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/thines.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/thines.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/thines.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/thines.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/thines.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/thines.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/thines.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/thines.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/thueyts.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/thueyts.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/thueyts.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/thueyts.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/en/thueyts.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/thueyts.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/thueyts.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/thueyts.html"/>
+  </url>
+  <url>
+    <loc>https://www.lescabritas.fr/nl/thueyts.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/thueyts.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lescabritas.fr/en/thueyts.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.lescabritas.fr/nl/thueyts.html"/>
+  </url>
+  <url>
     <loc>https://www.lescabritas.fr/tour-de-crest.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/tour-de-crest.html"/>
@@ -498,7 +1038,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/tour-de-crest.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/tour-de-crest.html"/>
@@ -507,7 +1047,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/tour-de-crest.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/tour-de-crest.html"/>
@@ -516,7 +1056,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/train-ardeche.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/train-ardeche.html"/>
@@ -525,7 +1065,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/train-ardeche.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/train-ardeche.html"/>
@@ -534,7 +1074,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/train-ardeche.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/train-ardeche.html"/>
@@ -543,7 +1083,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/trois-becs.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/trois-becs.html"/>
@@ -552,7 +1092,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/trois-becs.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/trois-becs.html"/>
@@ -561,7 +1101,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/trois-becs.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/trois-becs.html"/>
@@ -570,7 +1110,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/valence.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/valence.html"/>
@@ -579,7 +1119,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/valence.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/valence.html"/>
@@ -588,7 +1128,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/valence.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/valence.html"/>
@@ -597,7 +1137,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/vallee-drome.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/vallee-drome.html"/>
@@ -606,7 +1146,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/vallee-drome.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/vallee-drome.html"/>
@@ -615,7 +1155,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/vallee-drome.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/vallee-drome.html"/>
@@ -624,7 +1164,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/vals-les-bains.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/vals-les-bains.html"/>
@@ -633,7 +1173,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/vals-les-bains.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/vals-les-bains.html"/>
@@ -642,7 +1182,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/vals-les-bains.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/vals-les-bains.html"/>
@@ -651,7 +1191,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/vercors-grands-goulets.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/vercors-grands-goulets.html"/>
@@ -660,7 +1200,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/en/vercors-grands-goulets.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/vercors-grands-goulets.html"/>
@@ -669,7 +1209,7 @@
   </url>
   <url>
     <loc>https://www.lescabritas.fr/nl/vercors-grands-goulets.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.lescabritas.fr/vercors-grands-goulets.html"/>
