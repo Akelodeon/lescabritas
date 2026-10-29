@@ -6,7 +6,7 @@
 //
 // Date d'ouverture de la maison : les jours précédents s'affichent « Avant ouverture ».
 // Une fois la maison ouverte, tu peux supprimer cette ligne.
-const dateOuverture = "2027-04-01";
+const dateOuverture = "2027-01-01";
 
 // Pour ajouter/modifier une réservation, copie ce format :
 // { start:"AAAA-MM-JJ", end:"AAAA-MM-JJ" },
